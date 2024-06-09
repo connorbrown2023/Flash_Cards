@@ -1,0 +1,58 @@
+#Flashcard Program
+
+##Project Overview
+
+This Flashcard Program is a powerful study aid, perfect for learning new languages and topics. It was created as part of
+the 100 Days of Python Code bootcamp by the App Brewery, where I dived into handling exceptions, working with JSON data, parsing and reading CSVs with pandas, file operations, and more.
+
+##Features and Functionalities
+
+- Interactive Flashcards: Display a word in French (or any chosen language) on the front, and its English translation on the back.
+- User-Friendly Interface: Use buttons to mark if you knew the word or not, helping you focus on what you need to learn.
+- Customizable Content: Adapt the program for different languages and subjects.
+- Frequency Dictionary Integration: Leverage frequency dictionaries to prioritize learning the most commonly used words in any language.
+- Automated Translation: Utilize Google Sheets’ built-in translation functions to generate flashcards quickly.
+- Progress Tracking: Save progress to ensure you don’
+
+##Improvements and Extensions
+
+- Multilingual Support: Expand beyond French to include other languages like Spanish, German, Chinese, etc.
+- Topic Variety: Customize flashcards for different subjects, such as science terms, historical dates, or technical jargon.
+- Enhanced User Interface: Add features like speech recognition for pronunciation practice, or visual aids for vocabulary retention.
+
+##How It Works
+- Data Handling: The program reads from a CSV file containing word pairs. If the file is not found, it uses a default dataset.
+- Flashcard Display: A random word is shown on the flashcard, and after 3 seconds, it flips to reveal the translation.
+- User Interaction: Buttons allow users to indicate whether they knew the word or not, updating the learning list accordingly.
+
+##Installation and Setup
+
+###Clone the repository:
+
+git clone https://github.com/connorbrown2023/Flash_Cards.git
+cd flashcard-program
+
+###Install the required packages:
+
+pip install pandas tkinter
+
+###Prepare your dataset:
+
+Ensure you have a CSV file with word pairs (e.g., french_words.csv).
+Place the CSV file in the data directory.
+
+###Run the program:
+
+python main.py
+
+##Known Issues & Future Improvements
+
+- Error Handling: Improve error handling for file operations and user inputs.
+- Code Comments: Adding more detailed comments, especially docstrings for methods, to improve code readability and usability.
+- Sound Effects: Adding sound effects for correct and incorrect answers.
+- Difficulty Levels: Implementing different difficulty levels for learners at various stages.
+- Additional Features: Introducing features like speech recognition for pronunciation practice, visual aids for vocabulary retention, and tracking learning progress over time.
+
+##Contributing
+
+Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
